@@ -12,7 +12,7 @@ jobs:
         with: 
           go-version: 1.15
       - run: go test
-      - run: go run math.go
+      - run: go run testmath.go
 
   generate-build:
     needs: check-applications
